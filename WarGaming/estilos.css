@@ -1,0 +1,85 @@
+body {
+	background-color: #f2e6fc;
+	font-family: sans-serif, arial, times new roman;
+}
+.nav {
+	box-sizing: content-box;
+	background-color: #450f74;
+	width: 90%;
+	height: 30%;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.img_logo {
+	width: 12.5%;
+	margin-left: 2.5%;
+}
+.img_nl{
+	width: 50%;
+	margin-left: 9%;
+	margin-bottom: 2.5%;
+}
+.img_dl {
+	width: 12.5%;
+	margin-left: 9%;
+	margin-right: 2.5%;
+}
+.header {
+	box-sizing: border-box;
+	background-color: transparent;
+	width: 90%;
+	padding: 5px;
+	margin: 0 auto;
+	margin-top: 5px;
+	font-size: 80%;
+}
+.header_h1 {
+	font-weight: bold;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;
+}
+.article {
+	background-color: transparent;
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 100%;
+   }
+.sala_id {
+	margin: 0 auto;
+	text-align: center;
+
+}   
+.sala_id_form {
+	margin: 0 auto;
+	text-align: center; 
+	margin-right: 5%;
+}
+@media screen and (max-width: 720px){
+	.img_logo {
+	width: 12.5%;
+	margin-left: 2.5%;
+}
+.img_nl{
+	width: 50%;
+	margin-left: 7.5%;
+	margin-bottom: 2.5%;
+}
+.img_dl {
+	width: 12.5%;
+	margin-left: 7.5%;
+	margin-right: 2.5%;
+}
+@media screen and (max-width: 720px){
+	.header {
+		font-size: 50%;
+		margin-left: 0 auto;
+	}
+}
+@media screen and (max-width: 720px){
+	.article {
+		font-size: 40%;
+	}
+}
