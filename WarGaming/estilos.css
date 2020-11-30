@@ -36,8 +36,7 @@ body {
 }
 .header_h1 {
 	font-weight: bold;
-	margin-left: 30%;
-	margin-right: 30%;
+	margin-left: 0 auto;
 	text-align: center;
 }
 .article {
@@ -50,13 +49,25 @@ body {
 .sala_id {
 	margin: 0 auto;
 	text-align: center;
+	font-weight: bolder;
 
 }   
 .sala_id_form {
 	margin: 0 auto;
 	text-align: center; 
+	font-weight: bold;
+	border: solid 3px #450f74 ;
+	margin-left: 1%;
 	margin-right: 5%;
 }
+.sala_clave_form {
+	margin: 0 auto;
+	margin-left: 1%;
+	font-weight: bold;
+	text-align: center; 
+	border: solid 3px #450f74 ;
+}
+
 @media screen and (max-width: 720px){
 	.img_logo {
 	width: 12.5%;
@@ -74,12 +85,12 @@ body {
 }
 @media screen and (max-width: 720px){
 	.header {
-		font-size: 50%;
+		font-size: 70%;
 		margin-left: 0 auto;
 	}
 }
 @media screen and (max-width: 720px){
 	.article {
-		font-size: 40%;
+		font-size: 60%;
 	}
 }
