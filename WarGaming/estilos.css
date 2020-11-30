@@ -95,3 +95,27 @@ body {
 		font-size: 60%;
 	}
 }
+@media screen and (max-width: 400px){
+.sala_id {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bolder;
+
+}   
+.sala_id_form {
+	margin: 0 auto;
+	text-align: center; 
+	font-weight: bold;
+	border: solid 2px #450f74 ;
+	margin-left: 1%;
+	margin-right: 3%;
+}
+.sala_clave_form {
+	margin: 0 auto;
+	margin-left: 1%;
+	font-weight: bold;
+	text-align: center; 
+	border: solid 2px #450f74 ;
+}
+	}
+}
