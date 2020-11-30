@@ -95,7 +95,7 @@ body {
 		font-size: 60%;
 	}
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
 .sala_id {
 	margin: 0 auto;
 	text-align: center;
