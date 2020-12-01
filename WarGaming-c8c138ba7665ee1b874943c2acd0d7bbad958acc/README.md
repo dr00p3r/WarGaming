@@ -1,2 +1,0 @@
-# WarGaming
-Gamer Community
